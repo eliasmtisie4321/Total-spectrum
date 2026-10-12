@@ -3,26 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="theme-color" content="#0b2545">
-    <meta name="description" content="Big summer deals at My Store. Save on drinks, televisions and fridges while stocks last.">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Big summer deals at My Store. Bottles, fans, earpods and combo deals while stocks last.">
     <title>Big Summer Deals | My Store</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header class="site-header">
-        <div class="topbar">
-            <p class="brand">My Store</p>
-            <a class="topbar-cta" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20your%20products" target="_blank" rel="noopener">Chat on WhatsApp</a>
-        </div>
-        <div class="hero">
-            <h1>Big Summer Deals</h1>
-            <p class="tagline">Save big on your favourite products!</p>
-            <a class="hero-btn" href="#deals">View all deals</a>
+    <header class="site-header" id="top">
+        <p class="header-strip">Big Summer Deals &middot; Special offers while stocks last</p>
+        <h1 class="visually-hidden">Total Spectrum - Big Summer Deals</h1>
+        <div class="logo-wrap">
+            <img id="site-logo" class="logo-banner" src="IMAGES/logo.jpg" alt="Total Spectrum - Grow, Shop, Learn, Thrive"
+                 onerror="this.parentNode.classList.add('no-logo')">
+            <p class="logo-fallback">Total Spectrum</p>
         </div>
     </header>
 
@@ -34,180 +32,201 @@
             <article class="product">
                 <p class="saving">Save R10</p>
                 <figure class="product-image">
-                    <img src="IMAGES/2.jpg" alt="Water bottle" width="500" height="600" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of Water bottle">
+                        <img src="IMAGES/2.jpg" alt="Water bottle" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
                 <h3>Water bottle</h3>
                 <p class="price"><span class="currency">R</span>24<span class="cents">.99</span></p>
-                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Coca-Cola%202L" target="_blank" rel="noopener">Inquire about this product</a>
+                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Water%20bottle" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
             <article class="product">
                 <p class="saving">Save R500</p>
                 <figure class="product-image">
-                    <img src="IMAGES/4.jpg" alt="Smart television" width="400" height="400" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of FAN">
+                        <img src="IMAGES/4.jpg" alt="FAN" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
                 <h3>FAN</h3>
                 <p class="price"><span class="currency">R</span>60</p>
-                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Smart%20Television" target="_blank" rel="noopener">Inquire about this product</a>
+                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20FAN" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
             <article class="product">
                 <p class="saving">Save R800</p>
                 <figure class="product-image">
-                    <img src="IMAGES/5.jpg" alt="Double door fridge" width="400" height="400" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of AIR-PODS">
+                        <img src="IMAGES/5.jpg" alt="AIR-PODS" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
                 <h3>AIR-PODS</h3>
                 <p class="price"><span class="currency">R</span>120</p>
-                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Double%20Door%20Fridge" target="_blank" rel="noopener">Inquire about this product</a>
+                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20AIR-PODS" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
             <article class="product">
-                <p class="saving">Save R0</p>
                 <figure class="product-image">
-                    <img src="IMAGES/7.jpg" alt="Product 4" width="400" height="400" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of SLASH-BOTTLE">
+                        <img src="IMAGES/7.jpg" alt="SLASH-BOTTLE" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
                 <h3>SLASH-BOTTLE</h3>
                 <p class="price"><span class="currency">R</span>50</p>
-                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Product%204" target="_blank" rel="noopener">Inquire about this product</a>
+                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20SLASH-BOTTLE" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
             <article class="product">
-                <p class="saving">Save R0</p>
                 <figure class="product-image">
-                    <img src="IMAGES/8.jpg" alt="Product 5" width="400" height="400" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of DIFFUSER">
+                        <img src="IMAGES/8.jpg" alt="DIFFUSER" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
                 <h3>DIFFUSER</h3>
                 <p class="price"><span class="currency">R</span>15</p>
-                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Product%205" target="_blank" rel="noopener">Inquire about this product</a>
+                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20DIFFUSER" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
             <article class="product">
-                <p class="saving">Save R0</p>
                 <figure class="product-image">
-                    <img src="IMAGES/9.jpg" alt="Product 6" width="400" height="400" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of KIDS BOTTLE">
+                        <img src="IMAGES/9.jpg" alt="KIDS BOTTLE" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
                 <h3>KIDS BOTTLE</h3>
                 <p class="price"><span class="currency">R</span>70</p>
-                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Product%206" target="_blank" rel="noopener">Inquire about this product</a>
+                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20KIDS%20BOTTLE" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
             <article class="product">
-                <p class="saving">Save R0</p>
                 <figure class="product-image">
-                    <img src="IMAGES/10.jpg" alt="Product 7" width="400" height="400" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of COMBO DEAL">
+                        <img src="IMAGES/10.jpg" alt="COMBO DEAL" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
-                <h3>COMBO DEAL </h3>
+                <h3>COMBO DEAL</h3>
                 <p class="price"><span class="currency">R</span>200</p>
-                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Product%207" target="_blank" rel="noopener">Inquire about this product</a>
+                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20COMBO%20DEAL" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
             <article class="product">
-                <p class="saving">Save R0</p>
                 <figure class="product-image">
-                    <img src="IMAGES/15.jpg" alt="Product 8" width="400" height="400" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of PILL CUP">
+                        <img src="IMAGES/15.jpg" alt="PILL CUP" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
                 <h3>PILL CUP</h3>
                 <p class="price"><span class="currency">R</span>80</p>
-                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Product%208" target="_blank" rel="noopener">Inquire about this product</a>
+                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20PILL%20CUP" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
             <article class="product">
-                <p class="saving">Save R0</p>
                 <figure class="product-image">
-                    <img src="IMAGES/16.jpg" alt="Product 9" width="400" height="400" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of ELECTRONIC FAN">
+                        <img src="IMAGES/16.jpg" alt="ELECTRONIC FAN" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
                 <h3>ELECTRONIC FAN</h3>
                 <p class="price"><span class="currency">R</span>120</p>
-                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Product%209" target="_blank" rel="noopener">Inquire about this product</a>
+                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20ELECTRONIC%20FAN" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
             <article class="product">
-                <p class="saving">Save R0</p>
                 <figure class="product-image">
-                    <img src="IMAGES/17.jpg" alt="Product 10" width="400" height="400" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of PINK COMBO BOTTLES/FAN">
+                        <img src="IMAGES/17.jpg" alt="PINK COMBO BOTTLES/FAN" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
                 <h3>PINK COMBO BOTTLES/FAN</h3>
                 <p class="price"><span class="currency">R</span>250</p>
-                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Product%2010" target="_blank" rel="noopener">Inquire about this product</a>
+                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20PINK%20COMBO%20BOTTLES/FAN" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
             <article class="product">
-                <p class="saving">Save R0</p>
                 <figure class="product-image">
-                    <img src="IMAGES/18.jpg" alt="Product 11" width="400" height="400" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of Straw-CUP">
+                        <img src="IMAGES/18.jpg" alt="Straw-CUP" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
                 <h3>Straw-CUP</h3>
                 <p class="price"><span class="currency">R</span>130</p>
-                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Product%2011" target="_blank" rel="noopener">Inquire about this product</a>
+                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Straw-CUP" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
             <article class="product">
-                <p class="saving">Save R0</p>
                 <figure class="product-image">
-                    <img src="IMAGES/19.jpg" alt="Product 12" width="400" height="400" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of SMALL-FAN">
+                        <img src="IMAGES/19.jpg" alt="SMALL-FAN" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
                 <h3>SMALL-FAN</h3>
                 <p class="price"><span class="currency">R</span>150</p>
-                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Product%2012" target="_blank" rel="noopener">Inquire about this product</a>
+                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20SMALL-FAN" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
             <article class="product">
-                <p class="saving">Save R0</p>
                 <figure class="product-image">
-                    <img src="IMAGES/1.jpg" alt="Product 13" width="400" height="400" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of BOTTLE/FAN">
+                        <img src="IMAGES/1.jpg" alt="BOTTLE/FAN" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
                 <h3>BOTTLE/FAN</h3>
                 <p class="price"><span class="currency">R</span>250</p>
-                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Product%2013" target="_blank" rel="noopener">Inquire about this product</a>
+                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20BOTTLE/FAN" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
             <article class="product">
-                <p class="saving">Save R0</p>
                 <figure class="product-image">
-                    <img src="IMAGES/3.jpg" alt="Product 14" width="400" height="400" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of WIRELESS/PODS">
+                        <img src="IMAGES/3.jpg" alt="WIRELESS/PODS" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
                 <h3>WIRELESS/PODS</h3>
                 <p class="price"><span class="currency">R</span>120</p>
-                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Product%2014" target="_blank" rel="noopener">Inquire about this product</a>
+                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20WIRELESS/PODS" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
             <article class="product">
-                <p class="saving">Save R0</p>
                 <figure class="product-image">
-                    <img src="IMAGES/14.jpg" alt="Product 15" width="400" height="400" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of Sealed bottle">
+                        <img src="IMAGES/14.jpg" alt="Sealed bottle" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
                 <h3>Sealed bottle</h3>
                 <p class="price"><span class="currency">R</span>90</p>
-                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Product%2015" target="_blank" rel="noopener">Inquire about this product</a>
+                <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Sealed%20bottle" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
             <article class="product">
-                <p class="saving">Save R0</p>
                 <figure class="product-image">
-                    <img src="images/product-16.png" alt="Product 16" width="400" height="400" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of Product 16">
+                        <img src="images/product-16.png" alt="Product 16" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
                 <h3>Product 16</h3>
-              <p class="price"><span class="currency">R</span>0.00</p>
+                <p class="price"><span class="currency">R</span>0<span class="cents">.00</span></p>
                 <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Product%2016" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
             <article class="product">
-                <p class="saving">Save R0</p>
                 <figure class="product-image">
-                    <img src="images/product-17.png" alt="Product 17" width="400" height="400" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of Product 17">
+                        <img src="images/product-17.png" alt="Product 17" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
                 <h3>Product 17</h3>
-                <p class="price"><span class="currency">R</span>0.00</p>
+                <p class="price"><span class="currency">R</span>0<span class="cents">.00</span></p>
                 <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Product%2017" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
             <article class="product">
-                <p class="saving">Save R0</p>
                 <figure class="product-image">
-                    <img src="images/product-18.png" alt="Product 18" width="400" height="400" loading="lazy">
+                    <button type="button" class="zoom" aria-label="View larger image of Product 18">
+                        <img src="images/product-18.png" alt="Product 18" width="400" height="400" loading="lazy">
+                    </button>
                 </figure>
                 <h3>Product 18</h3>
-                <p class="price"><span class="currency">R</span>0.00</p>
+                <p class="price"><span class="currency">R</span>0<span class="cents">.00</span></p>
                 <a class="inquire" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20this%20product%3A%20Product%2018" target="_blank" rel="noopener">Inquire about this product</a>
             </article>
 
@@ -221,6 +240,86 @@
     </footer>
 
     <a class="wa-float" href="https://wa.me/27734439746?text=Hi%2C%20I%27d%20like%20to%20inquire%20about%20your%20products" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">Chat on WhatsApp</a>
-  
+
+    <dialog id="lightbox" class="lightbox" aria-label="Product preview">
+        <button type="button" class="lb-close" aria-label="Close preview">&times;</button>
+        <figure class="lb-figure">
+            <img id="lb-img" src="" alt="">
+            <figcaption>
+                <span id="lb-cap" class="lb-name"></span>
+                <span id="lb-price" class="lb-price"></span>
+            </figcaption>
+            <a id="lb-inquire" class="inquire" href="#" target="_blank" rel="noopener">Inquire about this product</a>
+        </figure>
+    </dialog>
+
+    <script>
+    /* Auto-crops empty white/transparent space around the logo so the artwork itself fills the header.
+       Works at the logo's full resolution (no blur). If the browser blocks it, the logo shows as-is. */
+    (function () {
+        var img = document.getElementById('site-logo');
+        function trim() {
+            if (img.dataset.trimmed || !img.naturalWidth) return;
+            img.dataset.trimmed = '1';
+            try {
+                var w = img.naturalWidth, h = img.naturalHeight,
+                    c = document.createElement('canvas');
+                c.width = w; c.height = h;
+                var ctx = c.getContext('2d', { willReadFrequently: true });
+                ctx.drawImage(img, 0, 0);
+                var d = ctx.getImageData(0, 0, w, h).data,
+                    minX = w, minY = h, maxX = -1, maxY = -1;
+                for (var y = 0; y < h; y++) {
+                    for (var x = 0; x < w; x++) {
+                        var i = (y * w + x) * 4;
+                        var empty = d[i + 3] < 25 || (d[i] > 240 && d[i + 1] > 240 && d[i + 2] > 240);
+                        if (!empty) {
+                            if (x < minX) minX = x; if (x > maxX) maxX = x;
+                            if (y < minY) minY = y; if (y > maxY) maxY = y;
+                        }
+                    }
+                }
+                if (maxX < 0) return;
+                var pad = Math.round(Math.min(w, h) * 0.02);
+                minX = Math.max(0, minX - pad); minY = Math.max(0, minY - pad);
+                maxX = Math.min(w - 1, maxX + pad); maxY = Math.min(h - 1, maxY + pad);
+                var cw = maxX - minX + 1, ch = maxY - minY + 1,
+                    o = document.createElement('canvas');
+                o.width = cw; o.height = ch;
+                o.getContext('2d').drawImage(img, minX, minY, cw, ch, 0, 0, cw, ch);
+                img.width = cw; img.height = ch;
+                img.src = o.toDataURL('image/png');
+                img.classList.add('is-trimmed');
+            } catch (err) { /* canvas blocked (e.g. file://) - show original */ }
+        }
+        if (img.complete) trim(); else img.addEventListener('load', trim);
+    })();
+    </script>
+
+    <script>
+    (function () {
+        var box = document.getElementById('lightbox'),
+            img = document.getElementById('lb-img'),
+            cap = document.getElementById('lb-cap'),
+            price = document.getElementById('lb-price'),
+            ask = document.getElementById('lb-inquire');
+
+        document.querySelectorAll('.product').forEach(function (card) {
+            card.querySelector('.zoom').addEventListener('click', function () {
+                var name = card.querySelector('h3').textContent;
+                var src = card.querySelector('img');
+                img.src = src.currentSrc || src.src;
+                img.alt = name;
+                cap.textContent = name;
+                price.textContent = card.querySelector('.price').textContent;
+                ask.href = card.querySelector('.inquire').href;
+                box.showModal();
+            });
+        });
+        box.querySelector('.lb-close').addEventListener('click', function () { box.close(); });
+        box.addEventListener('click', function (e) { if (e.target === box) box.close(); });
+    })();
+    </script>
+
 </body>
 </html>
